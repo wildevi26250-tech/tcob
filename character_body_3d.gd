@@ -31,16 +31,20 @@ func _physics_process(delta: float) -> void:
 		velocity.x += dash_speed
 		
 	if Input.is_action_just_pressed("ui_up"):
+		transform.basis = Basis()
 		rotate_object_local(Vector3.UP, 1)
-		transform.basis = Basis()
+		
 	if Input.is_action_just_pressed("ui_down"):
+		transform.basis = Basis()
 		rotate_object_local(Vector3.UP, 2)
-		transform.basis = Basis()
+		
 	if Input.is_action_just_pressed("ui_left"):
+		transform.basis = Basis()
 		rotate_object_local(Vector3.LEFT, 1)
-		transform.basis = Basis()
+		
 	if Input.is_action_just_pressed("ui_right"):
-		rotate_object_local(Vector3.LEFT, -1)
 		transform.basis = Basis()
+		rotate_object_local(Vector3.LEFT, -1)
+		
 	
 	move_and_slide()
