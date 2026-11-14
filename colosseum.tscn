@@ -69,7 +69,7 @@ shadow_mesh = SubResource("ArrayMesh_7udf2")
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_qo6vf"]
 
 [node name="colosseum" type="Node3D" unique_id=42025773]
-transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0)
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, -43.606327, 0)
 
 [node name="Cube" type="MeshInstance3D" parent="." unique_id=78876776]
 transform = Transform3D(1, 0, 0, 0, 1, 1.7484555e-07, 0, -1.7484555e-07, 1, -9.01, 1.071, 0)

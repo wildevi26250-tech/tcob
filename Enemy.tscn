@@ -27,5 +27,6 @@ mesh = SubResource("CapsuleMesh_ly3xq")
 shape = SubResource("SphereShape3D_p3a75")
 
 [node name="Timer" type="Timer" parent="RigidBody3D" unique_id=1940410743]
+autostart = true
 
 [connection signal="timeout" from="RigidBody3D/Timer" to="." method="_on_timer_timeout"]

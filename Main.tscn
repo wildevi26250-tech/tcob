@@ -1,3 +1,27 @@
 [gd_scene format=3 uid="uid://e3pnekrg4scr"]
 
+[ext_resource type="PackedScene" uid="uid://bqgejg3pf54sl" path="res://Player.tscn" id="1_uu6xs"]
+[ext_resource type="PackedScene" uid="uid://c012ognpw31i4" path="res://colosseum.tscn" id="3_cm0pq"]
+[ext_resource type="Script" uid="uid://dgj0ruvy3dh3w" path="res://camera_3d.gd" id="3_fos0i"]
+[ext_resource type="PackedScene" uid="uid://c5soijj3s17n1" path="res://Enemy.tscn" id="3_r0du0"]
+
 [node name="Node" type="Node" unique_id=117012660]
+
+[node name="CharacterBody3D" parent="." unique_id=1254943193 instance=ExtResource("1_uu6xs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 20.979103, 0)
+
+[node name="colosseum" parent="." unique_id=42025773 instance=ExtResource("3_cm0pq")]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, -1.2340775, 0)
+
+[node name="Node3D" parent="." unique_id=1831731075 instance=ExtResource("3_r0du0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 15.582855, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1814773619]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=427132966]
+transform = Transform3D(1, 0, 0, 0, -0.23484829, 0.972032, 0, -0.972032, -0.23484829, 0, 41.64381, 0)
+shadow_enabled = true
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1414954496]
+transform = Transform3D(1, 0, 0, 0, 0.72022027, 0.69374543, 0, -0.69374543, 0.72022027, 0, 34.778046, 24.238464)
+script = ExtResource("3_fos0i")
