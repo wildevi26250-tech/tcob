@@ -3,7 +3,12 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_ly3xq"]
 size = Vector3(1.9887695, 0.50305176, 1.9859619)
 
-[sub_resource type="PlaneMesh" id="PlaneMesh_ga30w"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i0846"]
+albedo_color = Color(0, 1, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_er6en"]
+material = SubResource("StandardMaterial3D_i0846")
+size = Vector3(1.953949, 0.47923425, 1.9654846)
 
 [node name="StaticBody3D" type="StaticBody3D" unique_id=1772989298]
 transform = Transform3D(25.004995, 0, 0, 0, 25.004995, 0, 0, 0, 25.004995, 0.0061059, -6.213094, 0.13583085)
@@ -13,5 +18,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.910383e-11, 0, 0)
 shape = SubResource("BoxShape3D_ly3xq")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1733343399]
-transform = Transform3D(1.0000001, 0, 0, 0, 1.0000001, 0, 0, 0, 1.0000001, -0.0002441872, 0.24847412, -0.0054321485)
-mesh = SubResource("PlaneMesh_ga30w")
+transform = Transform3D(1.0000001, 0, 0, 0, 1.0000001, 0, 0, 0, 1.0000001, 0.007339451, -0.01190877, -0.007247944)
+mesh = SubResource("BoxMesh_er6en")

@@ -6,7 +6,10 @@
 radius = 0.5078125
 height = 2.0845947
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fkx3k"]
+
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_ly3xq"]
+material = SubResource("StandardMaterial3D_fkx3k")
 
 [node name="CharacterBody3D" type="CharacterBody3D" unique_id=1254943193]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.0107012, 0)
