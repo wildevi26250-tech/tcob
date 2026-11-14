@@ -1,8 +1,9 @@
 extends CharacterBody3D
 
-
+@onready var play_anim = $"tcob-player/AnimationPlayer"
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
+var dash_speed = 100
 
 
 func _physics_process(delta: float) -> void:
@@ -21,8 +22,25 @@ func _physics_process(delta: float) -> void:
 	if direction:
 		velocity.x = direction.x * SPEED
 		velocity.z = direction.z * SPEED
+		play_anim.play("rigAction")
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
-
+		
+	if Input.is_action_just_pressed("ui_accept") && not is_on_floor():
+		velocity.x += dash_speed
+		
+	if Input.is_action_just_pressed("ui_up"):
+		rotate_object_local(Vector3.UP, 1)
+		transform.basis = Basis()
+	if Input.is_action_just_pressed("ui_down"):
+		rotate_object_local(Vector3.UP, 2)
+		transform.basis = Basis()
+	if Input.is_action_just_pressed("ui_left"):
+		transform.basis = Basis()
+		rotate_object_local(Vector3.LEFT, 1)
+		
+	if Input.is_action_just_pressed("ui_right"):
+		transform.basis = Basis()
+		rotate_object_local(Vector3.LEFT, -1)		
 	move_and_slide()
