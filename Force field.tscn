@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://3ckc1x66x2l6"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_slpv0"]
+radius = 4.192227
+
+[sub_resource type="Gradient" id="Gradient_kpjcp"]
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_sp5c1"]
+gradient = SubResource("Gradient_kpjcp")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kpbrg"]
+transparency = 1
+albedo_color = Color(1, 1, 0, 0.34509805)
+albedo_texture = SubResource("GradientTexture1D_sp5c1")
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_7kdff"]
+material = SubResource("StandardMaterial3D_kpbrg")
+radius = 3.9892578
+height = 8.53
+
+[node name="CharacterBody3D" type="CharacterBody3D" unique_id=1419039539]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." unique_id=529142299]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3639479, 0)
+shape = SubResource("SphereShape3D_slpv0")
+disabled = true
+debug_color = Color(1, 0, 0.69803923, 0.41960785)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D2" unique_id=920037564]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.10176849, 0)
+mesh = SubResource("CapsuleMesh_7kdff")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1767556583]

@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://bqgejg3pf54sl"]
 
-[ext_resource type="Script" uid="uid://d2h5qabd0o23x" path="res://character_body_3d.gd" id="1_xhfnw"]
+[ext_resource type="Script" uid="uid://d2h5qabd0o23x" path="res://Player.gd" id="1_xhfnw"]
 [ext_resource type="Material" uid="uid://crkaxhj0uwmqk" path="res://bk_assets/materials/stylized-water-waves-pools/stylized-water-waves-pools_1K.tres" id="2_kpjcp"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_p3a75"]
@@ -1865,6 +1865,7 @@ radius = 4.192227
 gradient = SubResource("Gradient_kpjcp")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kpbrg"]
+transparency = 1
 albedo_color = Color(1, 1, 0, 0.34509805)
 albedo_texture = SubResource("GradientTexture1D_sp5c1")
 
@@ -1873,7 +1874,7 @@ material = SubResource("StandardMaterial3D_kpbrg")
 radius = 3.9892578
 height = 8.53
 
-[node name="CharacterBody3D" type="CharacterBody3D" unique_id=1254943193]
+[node name="CharacterBody3D2" type="CharacterBody3D" unique_id=1254943193]
 script = ExtResource("1_xhfnw")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=901129858]

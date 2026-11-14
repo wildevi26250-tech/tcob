@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c5soijj3s17n1"]
 
 [ext_resource type="Script" uid="uid://vrgybfn0xq5k" path="res://enemy.gd" id="1_tt7e2"]
-[ext_resource type="Script" uid="uid://br5i1ifcd2tyg" path="res://rigid_body_3d.gd" id="2_s7bn3"]
+[ext_resource type="Script" uid="uid://br5i1ifcd2tyg" path="res://Enemy_movement.gd" id="2_s7bn3"]
 [ext_resource type="Material" uid="uid://ck7vndco4hp4u" path="res://bk_assets/materials/black-rubber/black-rubber_2K.tres" id="3_2hac7"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ly3xq"]
