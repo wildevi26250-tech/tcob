@@ -5,6 +5,13 @@
 [ext_resource type="Script" uid="uid://dgj0ruvy3dh3w" path="res://camera_3d.gd" id="3_fos0i"]
 [ext_resource type="PackedScene" uid="uid://c5soijj3s17n1" path="res://Enemy.tscn" id="3_r0du0"]
 
+[sub_resource type="Environment" id="Environment_7kdff"]
+volumetric_fog_density = 0.01
+volumetric_fog_emission_energy = 0.0
+volumetric_fog_gi_inject = 0.02
+volumetric_fog_detail_spread = 1.7411013
+volumetric_fog_ambient_inject = 0.11
+
 [node name="Node" type="Node" unique_id=117012660]
 
 [node name="CharacterBody3D" parent="." unique_id=1254943193 instance=ExtResource("1_uu6xs")]
@@ -17,6 +24,7 @@ transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, -1.2340775, 0)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 19.530453, 3.0295448)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1814773619]
+environment = SubResource("Environment_7kdff")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=427132966]
 transform = Transform3D(1, 0, 0, 0, -0.23484829, 0.972032, 0, -0.972032, -0.23484829, 0, 41.64381, 0)

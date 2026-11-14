@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://nyj5fngtyki3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p3a75"]
+albedo_color = Color(0.030023698, 0.006377226, 7.52043e-10, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ly3xq"]
+material = SubResource("StandardMaterial3D_p3a75")
+size = Vector3(0.17211914, 1, 0.17016602)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kpbrg"]
+albedo_color = Color(1, 0.6, 0, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_p3a75"]
+material = SubResource("StandardMaterial3D_kpbrg")
+size = Vector3(0.6699219, 0.6911621, 0.453125)
+
+[sub_resource type="Curve" id="Curve_4hnl4"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.7873303, 0.7857144), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_o5355"]
+curve = SubResource("Curve_4hnl4")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_ly3xq"]
+direction = Vector3(0, 2.005, 0)
+spread = 25.0
+initial_velocity_max = 2.0
+gravity = Vector3(0, 0, 0)
+scale_min = 0.7
+scale_curve = SubResource("CurveTexture_o5355")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y4up3"]
+transparency = 1
+albedo_color = Color(0.2509804, 0.2509804, 0.2509804, 0.52156866)
+metallic_specular = 0.0
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_grxb6"]
+material = SubResource("StandardMaterial3D_y4up3")
+height = 1.0
+
+[sub_resource type="Skin" id="Skin_kpbrg"]
+
+[node name="Torch" type="Node3D" unique_id=740909030]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=916649455]
+mesh = SubResource("BoxMesh_ly3xq")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=598255912]
+transform = Transform3D(0.37476656, 0.37476656, 0, -0.37476656, 0.37476656, 0, 0, 0, 0.53, 0, 0.43819815, 0)
+mesh = SubResource("BoxMesh_p3a75")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1644594451]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48640442, 0)
+light_color = Color(1, 0.45490196, 0, 1)
+light_energy = 3.556
+light_indirect_energy = 16.0
+light_size = 1.0
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="." unique_id=1497496839]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.44065762, 0)
+amount = 31
+lifetime = 2.0
+process_material = SubResource("ParticleProcessMaterial_ly3xq")
+draw_pass_1 = SubResource("CapsuleMesh_grxb6")
+draw_skin = SubResource("Skin_kpbrg")
