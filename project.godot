@@ -17,9 +17,9 @@ config/icon="res://icon.svg"
 
 [autoload]
 
+AmbientCG="*uid://cnxneyd8ilml2"
 Global="*uid://caevg4hql8mp"
 <<<<<<<HEADGlobal="*uid://dfd6imul62a8m"
-AmbientCG="*uid://cnxneyd8ilml2"
 
 [display]
 
