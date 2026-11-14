@@ -39,10 +39,10 @@ func _physics_process(delta: float) -> void:
 		var target_angle: float = atan2(direction.x, direction.z) + PI
 		rig.rotation.y = lerp_angle(rig.rotation.y, target_angle, rotation_speed * delta)
 		
-		update_animation("walk_002")
+		update_animation("rigAction")
 
 		
-		update_animation("walk_002")
+		update_animation("rigAction")
 	else:
 		velocity.x = move_toward(velocity.x, 0, speed)
 		velocity.z = move_toward(velocity.z, 0, speed)

@@ -1488,7 +1488,7 @@ _data = {
 script = ExtResource("1_xhfnw")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=901129858]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.134, 0)
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.134, 0)
 shape = SubResource("CapsuleShape3D_p3a75")
 
 [node name="tcob-player" type="Node3D" parent="." unique_id=1710120309]
@@ -3260,6 +3260,7 @@ bones/221/rotation = Quaternion(-0.03316971, -2.996533e-09, 0.35990253, 0.932400
 bones/221/scale = Vector3(1, 1, 0.99999994)
 
 [node name="Cube" type="MeshInstance3D" parent="tcob-player/rig/Skeleton3D" unique_id=395520165]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
 material_override = ExtResource("2_kpjcp")
 mesh = SubResource("ArrayMesh_kpjcp")
 skin = SubResource("Skin_kne1u")
