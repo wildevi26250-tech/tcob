@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cgyp3jmiyjvko"]
+
+[resource]
+resource_name = "Graphic Stylized Water (Procedural)"
+albedo_color = Color(0.954687, 0.986695, 1, 1)
+roughness = 0.08
+metallic_specular = 0.5

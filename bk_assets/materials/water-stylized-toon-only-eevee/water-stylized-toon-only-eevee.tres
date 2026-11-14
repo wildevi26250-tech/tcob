@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bhntpgwp0so8l"]
+
+[resource]
+resource_name = "Water Stylized Toon(ONLY EEVEE)"
+albedo_color = Color(0.8, 0.8, 0.8, 1)
