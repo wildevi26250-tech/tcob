@@ -2,11 +2,20 @@
 
 [ext_resource type="PackedScene" uid="uid://bqgejg3pf54sl" path="res://Player.tscn" id="1_uu6xs"]
 [ext_resource type="PackedScene" uid="uid://bf8622s805cqh" path="res://Level.tscn" id="2_r0du0"]
+[ext_resource type="PackedScene" uid="uid://c5soijj3s17n1" path="res://Enemy.tscn" id="3_r0du0"]
 
 [sub_resource type="Environment" id="Environment_p3a75"]
-glow_intensity = 8.0
+glow_enabled = true
+glow_intensity = 1.65
+glow_bloom = 0.7
+fog_light_energy = 1.63
+fog_density = 0.025
+fog_height = -1024.0
+volumetric_fog_density = 1.595
+volumetric_fog_emission_energy = 392.31
+volumetric_fog_gi_inject = 0.07
 
-[node name="Node3D" type="Node3D" unique_id=414517466]
+[node name="Node3D2" type="Node3D" unique_id=414517466]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1752389180]
 environment = SubResource("Environment_p3a75")
@@ -15,5 +24,12 @@ environment = SubResource("Environment_p3a75")
 
 [node name="StaticBody3D" parent="." unique_id=1772989298 instance=ExtResource("2_r0du0")]
 
-[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=2066060119]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 25.861084, 0)
+[node name="AreaLight3D" type="AreaLight3D" parent="." unique_id=1141634872]
+transform = Transform3D(1, 0, 0, 0, 1.1924881e-08, 1, 0, -1, 1.1924881e-08, 0, 9.528374, 0)
+light_energy = 14.84
+light_indirect_energy = 16.0
+light_size = 238.14
+area_range = 19.912
+area_attenuation = 10.0
+
+[node name="Node3D" parent="." unique_id=697635447 instance=ExtResource("3_r0du0")]
