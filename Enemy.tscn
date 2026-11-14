@@ -6,6 +6,10 @@
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ly3xq"]
 bounce = 5.9
 
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_ly3xq"]
+radius = 0.9472656
+height = 1.8945313
+
 [sub_resource type="SphereShape3D" id="SphereShape3D_p3a75"]
 radius = 0.9551661
 
@@ -15,6 +19,9 @@ script = ExtResource("1_tt7e2")
 [node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=49039100]
 physics_material_override = SubResource("PhysicsMaterial_ly3xq")
 script = ExtResource("2_s7bn3")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D" unique_id=1928330693]
+mesh = SubResource("CapsuleMesh_ly3xq")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1880098749]
 shape = SubResource("SphereShape3D_p3a75")

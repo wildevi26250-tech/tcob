@@ -75,7 +75,7 @@ data = PackedVector3Array(15.322399, 1, -4.5056, 18.042, 4.6685, -2.5181, 16.737
 [node name="colosseum" type="Node3D" unique_id=42025773]
 
 [node name="Cube" type="MeshInstance3D" parent="." unique_id=78876776]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.0100765, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 1.7484555e-07, 0, -1.7484555e-07, 1, -9.0100765, 0, 0)
 mesh = SubResource("ArrayMesh_nvhyl")
 
 [node name="StaticBody3D2" type="StaticBody3D" parent="Cube" unique_id=2132262366]

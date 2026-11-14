@@ -31,7 +31,7 @@ transform = Transform3D(1, 0, 0, 0, -0.37273467, 0.927938, 0, -0.927938, -0.3727
 shadow_enabled = true
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1148633664 node_paths=PackedStringArray("target")]
-transform = Transform3D(1, 0, 0, 0, 0.5282381, 0.8490963, 0, -0.8490963, 0.5282381, 0, 12.265902, 8.379003)
+transform = Transform3D(1, 0, 0, 0, 0.39062512, 0.9205498, 0, -0.9205498, 0.39062512, 0, 20.217093, 8.379003)
 script = ExtResource("3_fos0i")
 target = NodePath("../CharacterBody3D")
 

@@ -7,12 +7,13 @@ const JUMP_VELOCITY = 4.5
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	timer.start()
+	pass
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	pass
+	timer.start()
+	get_tree().create_timer(1.0)
 	
 
 func _physics_process(delta: float) -> void:
@@ -20,7 +21,7 @@ func _physics_process(delta: float) -> void:
 		Global.on_floor = 1
 	else:
 		Global.on_floor = 0
-
+	
 
 func _on_timer_timeout() -> void:
 	Global.jump = 1
