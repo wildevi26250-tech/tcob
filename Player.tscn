@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://bqgejg3pf54sl"]
 
-[ext_resource type="Script" uid="uid://d2h5qabd0o23x" path="res://character_body_3d.gd" id="1_xhfnw"]
+[ext_resource type="Script" uid="uid://b25gmw1t55vc" path="res://character_body_3d.gd" id="1_xhfnw"]
 [ext_resource type="Material" uid="uid://crkaxhj0uwmqk" path="res://bk_assets/materials/stylized-water-waves-pools/stylized-water-waves-pools_1K.tres" id="2_kpjcp"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_p3a75"]
@@ -1860,7 +1860,7 @@ _data = {
 script = ExtResource("1_xhfnw")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=901129858]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.134, 0)
+transform = Transform3D(1.64, 0, 0, 0, 1.64, 0, 0, 0, 1.64, 0, 1.7886933, 0)
 shape = SubResource("CapsuleShape3D_p3a75")
 
 [node name="tcob-player-retry" type="Node3D" parent="." unique_id=1953276118]
