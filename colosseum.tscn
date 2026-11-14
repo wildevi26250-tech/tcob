@@ -72,5 +72,3 @@ transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0)
 [node name="Cube" type="MeshInstance3D" parent="." unique_id=78876776]
 transform = Transform3D(1, 0, 0, 0, 1, 1.7484555e-07, 0, -1.7484555e-07, 1, -9.0100765, 0, 0)
 mesh = SubResource("ArrayMesh_nvhyl")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=845831942]
