@@ -16,6 +16,7 @@ radius = 0.9551661
 
 [sub_resource type="Animation" id="Animation_2hac7"]
 resource_name = "Bounce"
+length = 1.2333333
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -23,10 +24,10 @@ tracks/0/path = NodePath("RigidBody3D/MeshInstance3D:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.13333334, 0.39, 1),
+"times": PackedFloat32Array(0, 0.13333334, 0.33333334, 0.4666667),
 "transitions": PackedFloat32Array(-2, -2, -2, -2),
 "update": 0,
-"values": [Vector3(0, 0, 0), Vector3(0, -0.27914482, 0), Vector3(0, -0.27914482, 0), Vector3(0, 0, 0)]
+"values": [Vector3(0, 0, 0), Vector3(0, -0.27914482, 0), Vector3(0, 0.203, 0), Vector3(0, 0, 0)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -35,10 +36,10 @@ tracks/1/path = NodePath("RigidBody3D/MeshInstance3D:scale")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.13333334, 0.39, 1),
+"times": PackedFloat32Array(0, 0.13333334, 0.33333334, 0.4666667),
 "transitions": PackedFloat32Array(-2, -2, -2, -2),
 "update": 0,
-"values": [Vector3(1, 1, 1), Vector3(1, 0.585, 1), Vector3(1, 0.585, 1), Vector3(1, 1, 1)]
+"values": [Vector3(1, 1, 1), Vector3(1, 0.585, 1), Vector3(1, 1.263, 1), Vector3(1, 1, 1)]
 }
 
 [sub_resource type="Animation" id="Animation_e6d4v"]

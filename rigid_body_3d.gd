@@ -1,6 +1,7 @@
 extends RigidBody3D
 
 @onready var timer = $"../Timer"
+@onready var ball_anim = $"../AnimationPlayer"
 
 
 # Called when the node enters the scene tree for the first time.
@@ -10,18 +11,11 @@ func _ready() -> void:
 
 func _physics_process(delta: float) -> void:
 	linear_velocity.y -= 0.0918
-	
-func _process(delta: float) -> void:
-	if Global.on_floor == 1:
-		linear_velocity.x += randf_range(-50, 50)
-		linear_velocity.z += randf_range(-50, 50)
-		linear_velocity.y += randf_range(1, 50)
-	elif Global.on_wall == 1:
-		linear_velocity.x += randf_range(-50, 50)
-		linear_velocity.z += randf_range(-50, 50)
-		linear_velocity.y += randf_range(1, 50)
 
 func _on_timer_timeout() -> void:
-	pass
+	linear_velocity.x += randf_range(-50, 50)
+	linear_velocity.z += randf_range(-50, 50)
+	linear_velocity.y += randf_range(1, 50)
+	ball_anim.play("Bounce")
 
 	

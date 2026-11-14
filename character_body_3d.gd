@@ -51,9 +51,12 @@ func _physics_process(delta: float) -> void:
 
 	if not is_on_floor():
 		update_animation("jump")
+		
+	if Input.is_action_just_pressed("Sheild"):
+		anim_player.play("Sheild")
 
 	move_and_slide()
 
 func update_animation(anim_name: String) -> void:
-	if anim_player.has_animation(anim_name) and anim_player.current_animation != anim_name:
+#	if anim_player.has_animation(anim_name) and anim_player.current_animation != anim_name:
 		anim_player.play(anim_name)
