@@ -1,24 +1,84 @@
-[gd_scene format=3 uid="uid://3ckc1x66x2l6"]
+[gd_scene format=3 uid="uid://c2qtl6s67801j"]
+
+[ext_resource type="Script" uid="uid://dwc61kebnryeu" path="res://force_field.gd" id="1_7kdff"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_slpv0"]
 radius = 4.192227
 
-[sub_resource type="Gradient" id="Gradient_kpjcp"]
-
-[sub_resource type="GradientTexture1D" id="GradientTexture1D_sp5c1"]
-gradient = SubResource("Gradient_kpjcp")
-
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kpbrg"]
 transparency = 1
-albedo_color = Color(1, 1, 0, 0.34509805)
-albedo_texture = SubResource("GradientTexture1D_sp5c1")
+albedo_color = Color(1, 0.42745098, 0, 0)
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_7kdff"]
 material = SubResource("StandardMaterial3D_kpbrg")
 radius = 3.9892578
 height = 8.53
 
+[sub_resource type="Animation" id="Animation_slpv0"]
+resource_name = "Force field"
+length = 4.5333333
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CollisionShape3D2:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.31, 3.543333, 4.5),
+"transitions": PackedFloat32Array(-2, -2, -2, -2),
+"update": 1,
+"values": [true, false, false, true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CollisionShape3D2/MeshInstance3D:mesh:material:albedo_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.3, 3.5333333, 4.5),
+"transitions": PackedFloat32Array(-2, -2, -2, -2),
+"update": 0,
+"values": [Color(1, 0.42745098, 0, 0), Color(1, 0.42745098, 0, 0.3882353), Color(1, 0.42745098, 0, 0.3882353), Color(1, 0.42745098, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_7kdff"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CollisionShape3D2:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CollisionShape3D2/MeshInstance3D:mesh:material:albedo_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 0.42745098, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_5ogq1"]
+_data = {
+&"Force field": SubResource("Animation_slpv0"),
+&"RESET": SubResource("Animation_7kdff")
+}
+
 [node name="CharacterBody3D" type="CharacterBody3D" unique_id=1419039539]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_7kdff")
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="." unique_id=529142299]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3639479, 0)
@@ -31,3 +91,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.10176849, 0)
 mesh = SubResource("CapsuleMesh_7kdff")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1767556583]
+libraries/ = SubResource("AnimationLibrary_5ogq1")

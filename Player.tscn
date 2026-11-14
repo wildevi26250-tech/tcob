@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://bqgejg3pf54sl"]
 
 [ext_resource type="Script" uid="uid://d2h5qabd0o23x" path="res://Player.gd" id="1_xhfnw"]
+[ext_resource type="PackedScene" uid="uid://c2qtl6s67801j" path="res://Force field.tscn" id="2_kne1u"]
 [ext_resource type="Material" uid="uid://crkaxhj0uwmqk" path="res://bk_assets/materials/stylized-water-waves-pools/stylized-water-waves-pools_1K.tres" id="2_kpjcp"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_p3a75"]
@@ -707,7 +708,6 @@ bind/221/pose = Transform3D(0.7409403, -0.023875723, -0.67114633, -0.67114633, -
 
 [sub_resource type="Animation" id="Animation_3rdto"]
 resource_name = "rigAction"
-loop_mode = 2
 step = 3.3537
 tracks/0/type = "position_3d"
 tracks/0/imported = true
@@ -1856,26 +1856,10 @@ _data = {
 &"rigAction": SubResource("Animation_3rdto")
 }
 
-[sub_resource type="SphereShape3D" id="SphereShape3D_ly3xq"]
-radius = 4.192227
-
-[sub_resource type="Gradient" id="Gradient_kpjcp"]
-
-[sub_resource type="GradientTexture1D" id="GradientTexture1D_sp5c1"]
-gradient = SubResource("Gradient_kpjcp")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kpbrg"]
-transparency = 1
-albedo_color = Color(1, 1, 0, 0.34509805)
-albedo_texture = SubResource("GradientTexture1D_sp5c1")
-
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_ly3xq"]
-material = SubResource("StandardMaterial3D_kpbrg")
-radius = 3.9892578
-height = 8.53
-
 [node name="CharacterBody3D2" type="CharacterBody3D" unique_id=1254943193]
 script = ExtResource("1_xhfnw")
+
+[node name="CharacterBody3D" parent="." unique_id=1419039539 instance=ExtResource("2_kne1u")]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=901129858]
 transform = Transform3D(1.64, 0, 0, 0, 1.64, 0, 0, 0, 1.64, 0, 1.7886933, 0)
@@ -3898,14 +3882,3 @@ transform = Transform3D(0.49405771, 0, 0, 0, 0.49405771, 0, 0, 0, 0.49405771, 0,
 [node name="AnimationPlayer" type="AnimationPlayer" parent="tcob-player-retry" unique_id=2025639317]
 libraries/ = SubResource("AnimationLibrary_cxr5p")
 blend_times = [&"rigAction", &"rigAction", 0.012]
-
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="." unique_id=1008726620]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3639479, 0)
-shape = SubResource("SphereShape3D_ly3xq")
-disabled = true
-debug_color = Color(1, 0, 0.69803923, 0.41960785)
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D2" unique_id=1636280209]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.10176849, 0)
-visible = false
-mesh = SubResource("CapsuleMesh_ly3xq")
