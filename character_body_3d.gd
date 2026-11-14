@@ -31,20 +31,6 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("ui_accept") && not is_on_floor():
 		velocity.x += dash_speed
 		
-	if Input.is_action_just_pressed("ui_up"):
-		rig.rotate(Vector3.UP, 1)
-		
-	if Input.is_action_just_pressed("ui_down"):
-		transform.basis = Basis()
-		rotate_object_local(Vector3.UP, 2)
-		
-	if Input.is_action_just_pressed("ui_left"):
-		transform.basis = Basis()
-		rotate_object_local(Vector3.LEFT, 1)
-		
-	if Input.is_action_just_pressed("ui_right"):
-		transform.basis = Basis()
-		rotate_object_local(Vector3.LEFT, -1)
-		
+
 	
 	move_and_slide()

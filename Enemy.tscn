@@ -28,5 +28,5 @@ shape = SubResource("SphereShape3D_p3a75")
 
 [node name="Timer" type="Timer" parent="RigidBody3D" unique_id=1940410743]
 
-[connection signal="timeout" from="RigidBody3D/Timer" to="RigidBody3D" method="_on_timer_timeout"]
 [connection signal="timeout" from="RigidBody3D/Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="RigidBody3D/Timer" to="RigidBody3D" method="_on_timer_timeout"]
