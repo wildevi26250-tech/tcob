@@ -161,7 +161,7 @@ transform = Transform3D(-0.81464624, 0.5797769, 0.016310746, 0.57977694, 0.81351
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5449848, 0)
 
 [node name="Torch2" parent="." unique_id=1688122905 instance=ExtResource("1_voh5k")]
-transform = Transform3D(0.9659258, -0.25881904, 0, 0.25881904, 0.9659258, 0, 0, 0, 1, 8.606371, 4.630822, 0)
+transform = Transform3D(0.9659258, -0.25881904, 0, 0.25881904, 0.9659258, 0, 0, 0, 1, 7.640706, 2.2997313, 0)
 
 [node name="Torch3" parent="." unique_id=1355576069 instance=ExtResource("1_voh5k")]
-transform = Transform3D(0.9659258, 0.25881904, 0, -0.25881904, 0.9659258, 0, 0, 0, 1, -8.757337, 4.837607, 0)
+transform = Transform3D(0.9659258, 0.25881904, 0, -0.25881904, 0.9659258, 0, 0, 0, 1, -7.7310185, 2.3777304, 0)
