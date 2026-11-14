@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://vrgybfn0xq5k" path="res://enemy.gd" id="1_tt7e2"]
 [ext_resource type="Script" uid="uid://br5i1ifcd2tyg" path="res://rigid_body_3d.gd" id="2_s7bn3"]
+[ext_resource type="Material" uid="uid://ck7vndco4hp4u" path="res://bk_assets/materials/black-rubber/black-rubber_2K.tres" id="3_2hac7"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ly3xq"]
 bounce = 0.66
@@ -21,6 +22,7 @@ physics_material_override = SubResource("PhysicsMaterial_ly3xq")
 script = ExtResource("2_s7bn3")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D" unique_id=1928330693]
+material_override = ExtResource("3_2hac7")
 mesh = SubResource("CapsuleMesh_ly3xq")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1880098749]

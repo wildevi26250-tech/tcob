@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ck7vndco4hp4u"]
+
+[ext_resource type="Texture2D" path="textures_2K/black rubber_BaseColor.jpg" id="1"]
+[ext_resource type="Texture2D" path="textures_2K/black rubber_Roughness.jpg" id="2"]
+[ext_resource type="Texture2D" path="textures_2K/black rubber_Normal.jpg" id="3"]
+[ext_resource type="Texture2D" path="textures_2K/black rubber_Displacement.jpg" id="4"]
+
+[resource]
+resource_name = "Black rubber"
+albedo_texture = ExtResource("1")
+roughness_texture = ExtResource("2")
+roughness_texture_channel = 4
+metallic_specular = 0.5
+normal_texture = ExtResource("3")
+normal_enabled = true
+heightmap_texture = ExtResource("4")
+heightmap_scale = 1
+uv1_triplanar = true
