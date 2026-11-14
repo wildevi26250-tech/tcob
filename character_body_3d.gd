@@ -37,10 +37,10 @@ func _physics_process(delta: float) -> void:
 		rotate_object_local(Vector3.UP, 2)
 		transform.basis = Basis()
 	if Input.is_action_just_pressed("ui_left"):
-		transform.basis = Basis()
 		rotate_object_local(Vector3.LEFT, 1)
-		
-	if Input.is_action_just_pressed("ui_right"):
 		transform.basis = Basis()
-		rotate_object_local(Vector3.LEFT, -1)		
+	if Input.is_action_just_pressed("ui_right"):
+		rotate_object_local(Vector3.LEFT, -1)
+		transform.basis = Basis()
+	
 	move_and_slide()
