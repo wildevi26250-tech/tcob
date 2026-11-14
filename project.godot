@@ -11,7 +11,6 @@ config_version=5
 [application]
 
 config/name="tcob"
-run/main_scene="uid://e3pnekrg4scr"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -20,6 +19,10 @@ config/icon="res://icon.svg"
 Global="*uid://caevg4hql8mp"
 <<<<<<<HEADGlobal="*uid://dfd6imul62a8m"
 AmbientCG="*uid://cnxneyd8ilml2"
+
+[blendkit]
+
+downloads/model_format="gltf_godot"
 
 [display]
 
