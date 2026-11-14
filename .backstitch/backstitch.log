@@ -37,3 +37,275 @@
 2026-11-13T23:35:13.410635Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
 2026-11-13T23:35:15.465051Z DEBUG backstitch_godot::interop::godot_project: 978: ** GodotProjectPlugin: enter_tree
 2026-11-13T23:35:16.659420Z  INFO backstitch_godot::interop::godot_project: 734: Backstitch config has no project id, not autostarting...
+2026-11-14T01:08:42.382358Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:08:42.382375Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:08:42.399096Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:08:42.399105Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:08:42.403026Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:08:42.403681Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:08:48.119544Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:08:48.119632Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:08:48.119922Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:08:48.120428Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:08:54.579774Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:08:54.579784Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:08:54.594137Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:08:54.594145Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:08:54.597512Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:08:54.598117Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:09:04.486256Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:09:04.486305Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:09:04.486418Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:09:04.486540Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:11:43.986702Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:11:43.986711Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:11:44.000877Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:11:44.000886Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:11:44.004211Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:11:44.004800Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:11:54.326091Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:11:54.326146Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:11:54.326273Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:11:54.326397Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:14:29.026339Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:14:29.026348Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:14:29.040845Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:14:29.040854Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:14:29.044408Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:14:29.044975Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:14:52.926275Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:14:52.926338Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:14:52.926493Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:14:52.926710Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:14:55.933048Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:14:55.933056Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:14:55.947792Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:14:55.947801Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:14:55.950991Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:14:55.951621Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:15:00.813511Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:15:00.813578Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:15:00.813809Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:15:00.814043Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:15:45.968126Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:15:45.968136Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:15:45.982863Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:15:45.982871Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:15:45.986552Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:15:45.987158Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:15:49.959991Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:15:49.960076Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:15:49.960235Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:15:49.960518Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:15:53.160193Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:15:53.160202Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:15:53.175602Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:15:53.175611Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:15:53.179135Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:15:53.179729Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:15:54.559799Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:15:54.559850Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:15:54.559983Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:15:54.560213Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:16:15.879864Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:16:15.879872Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:16:15.894219Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:16:15.894227Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:16:15.898006Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:16:15.912111Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:16:19.833708Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:16:19.833777Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:16:19.833962Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:16:19.834198Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:17:24.226020Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:17:24.226029Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:17:24.240272Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:17:24.240281Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:17:24.243623Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:17:24.244203Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:17:25.199990Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:17:25.200074Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:17:25.200312Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:17:25.200644Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:17:27.202231Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:17:27.202240Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:17:27.216853Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:17:27.216863Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:17:27.220083Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:17:27.220695Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:17:31.260845Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:17:31.260929Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:17:31.261328Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:17:31.261579Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:18:19.646512Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:18:19.646520Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:18:19.661884Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:18:19.661893Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:18:19.665252Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:18:19.665867Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:18:21.319941Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:18:21.319989Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:18:21.320112Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:18:21.320236Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:18:38.221411Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:18:38.221420Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:18:38.235752Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:18:38.235761Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:18:38.239493Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:18:38.240109Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:18:39.279873Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:18:39.279929Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:18:39.280115Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:18:39.280376Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:18:46.269845Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:18:46.269854Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:18:46.289160Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:18:46.289169Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:18:46.295913Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:18:46.296623Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:18:47.320096Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:18:47.320145Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:18:47.320263Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:18:47.320389Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:18:53.010826Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:18:53.010835Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:18:53.025467Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:18:53.025477Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:18:53.028976Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:18:53.029567Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:18:53.713343Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:18:53.713407Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:18:53.713558Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:18:53.713715Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:19:02.393596Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:19:02.393605Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:19:02.407915Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:19:02.407923Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:19:02.411321Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:19:02.411951Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:19:03.787027Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:19:03.787098Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:19:03.787262Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:19:03.787668Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:19:08.705791Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:19:08.705799Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:19:08.719872Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:19:08.719880Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:19:08.723182Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:19:08.723768Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:19:09.247384Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:19:09.247435Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:19:09.247709Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:19:09.248038Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:19:14.380320Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:19:14.380329Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:19:14.394784Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:19:14.394793Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:19:14.398283Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:19:14.398874Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:19:16.733410Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:19:16.733467Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:19:16.733609Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:19:16.733772Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:19:20.852776Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:19:20.852791Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:19:20.868054Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:19:20.868063Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:19:20.871452Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:19:20.872129Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:19:21.353491Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:19:21.353558Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:19:21.353687Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:19:21.353875Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:19:37.319191Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:19:37.319200Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:19:37.334777Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:19:37.334785Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:19:37.338673Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:19:37.339290Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:19:38.307540Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:19:38.307596Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:19:38.307732Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:19:38.307876Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:22:03.064402Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:22:03.064412Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:22:03.079719Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:22:03.079728Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:22:03.082935Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:22:03.083468Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:22:21.420359Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:22:21.420423Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:22:21.420616Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:22:21.421122Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:23:55.485173Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:23:55.485182Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:23:55.500027Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:23:55.500036Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:23:55.503431Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:23:55.504023Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:24:07.134676Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:24:07.134808Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:24:07.135008Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:24:07.135163Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:24:09.298134Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:24:09.298144Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:24:09.312476Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:24:09.312486Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:24:09.315755Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:24:09.316404Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:24:17.771506Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:24:17.771516Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:24:17.786965Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:24:17.786978Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:24:17.790862Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:24:17.791511Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:25:02.620014Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:25:02.620082Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:25:02.620257Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:25:02.620479Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:27:00.277938Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:27:00.277951Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:27:00.294270Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:27:00.294280Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:27:00.298099Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:27:00.298793Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:27:22.154054Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:27:22.154107Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:27:22.154236Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:27:22.154410Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:27:44.877821Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:27:44.877830Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:27:44.892583Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:27:44.892591Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:27:44.896045Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:27:44.896619Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:27:52.547032Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:27:52.547093Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:27:52.547238Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:27:52.547438Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:29:25.847517Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:29:25.847526Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:29:25.861933Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:29:25.861941Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:29:25.865544Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:29:25.866184Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:29:30.840793Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:29:30.840841Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:29:30.840959Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:29:30.841175Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:30:13.986436Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:30:13.986445Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:30:14.001560Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:30:14.001569Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:30:14.004877Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:30:14.005488Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:30:25.447342Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:30:25.447396Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-11-14T01:30:25.447530Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-11-14T01:30:25.447694Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031620284175, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-14T01:33:57.249477Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:33:57.249485Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:33:57.264098Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-14T01:33:57.264106Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-14T01:33:57.267800Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-14T01:33:57.268551Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor

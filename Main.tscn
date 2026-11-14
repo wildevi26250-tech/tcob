@@ -5,7 +5,6 @@
 [ext_resource type="PackedScene" uid="uid://c5soijj3s17n1" path="res://Enemy.tscn" id="3_r0du0"]
 
 [sub_resource type="Environment" id="Environment_p3a75"]
-glow_enabled = true
 glow_intensity = 1.65
 glow_bloom = 0.7
 fog_light_energy = 1.63
@@ -21,15 +20,12 @@ volumetric_fog_gi_inject = 0.07
 environment = SubResource("Environment_p3a75")
 
 [node name="CharacterBody3D" parent="." unique_id=1254943193 instance=ExtResource("1_uu6xs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.0107012, -4.4935646)
 
 [node name="StaticBody3D" parent="." unique_id=1772989298 instance=ExtResource("2_r0du0")]
 
-[node name="AreaLight3D" type="AreaLight3D" parent="." unique_id=1141634872]
-transform = Transform3D(1, 0, 0, 0, 1.1924881e-08, 1, 0, -1, 1.1924881e-08, 0, 9.528374, 0)
-light_energy = 14.84
-light_indirect_energy = 16.0
-light_size = 238.14
-area_range = 19.912
-area_attenuation = 10.0
-
 [node name="Node3D" parent="." unique_id=697635447 instance=ExtResource("3_r0du0")]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=535740762]
+transform = Transform3D(1, 0, 0, 0, -0.37273467, 0.927938, 0, -0.927938, -0.37273467, 0, 15.476816, 7.8666115)
+shadow_enabled = true

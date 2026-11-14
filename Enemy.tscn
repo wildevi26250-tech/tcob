@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c5soijj3s17n1"]
 
-[ext_resource type="Script" path="res://rigid_body_3d.gd" id="1_tt7e2"]
+[ext_resource type="Script" uid="uid://vrgybfn0xq5k" path="res://enemy.gd" id="1_tt7e2"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ly3xq"]
 bounce = 5.9
@@ -12,11 +12,11 @@ height = 1.8945313
 [sub_resource type="SphereShape3D" id="SphereShape3D_p3a75"]
 radius = 0.9551661
 
-[node name="Node3D" type="Node3D" unique_id=697635447]
+[node name="Node3D" type="CharacterBody3D" unique_id=1831731075]
+script = ExtResource("1_tt7e2")
 
 [node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=49039100]
 physics_material_override = SubResource("PhysicsMaterial_ly3xq")
-script = ExtResource("1_tt7e2")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D" unique_id=1928330693]
 mesh = SubResource("CapsuleMesh_ly3xq")
