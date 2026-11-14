@@ -26,3 +26,11 @@ func _on_timer_timeout() -> void:
 	Global.jump = 1
 	
 	
+
+
+func _on_area_3d_area_entered(area: Area3D) -> void:
+	Global.bounce = 1
+
+
+func _on_area_3d_area_exited(area: Area3D) -> void:
+	Global.bounce = 0
