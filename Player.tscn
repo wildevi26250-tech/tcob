@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://bqgejg3pf54sl"]
 
-[ext_resource type="Script" uid="uid://d2h5qabd0o23x" path="res://character_body_3d.gd" id="1_xhfnw"]
+[ext_resource type="Script" uid="uid://b25gmw1t55vc" path="res://character_body_3d.gd" id="1_xhfnw"]
 [ext_resource type="Material" uid="uid://crkaxhj0uwmqk" path="res://bk_assets/materials/stylized-water-waves-pools/stylized-water-waves-pools_1K.tres" id="2_kpjcp"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_p3a75"]
