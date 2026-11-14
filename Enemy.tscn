@@ -14,6 +14,66 @@ height = 1.8945313
 [sub_resource type="SphereShape3D" id="SphereShape3D_p3a75"]
 radius = 0.9551661
 
+[sub_resource type="Animation" id="Animation_2hac7"]
+resource_name = "Bounce"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("RigidBody3D/MeshInstance3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.13333334, 0.39, 1),
+"transitions": PackedFloat32Array(-2, -2, -2, -2),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, -0.27914482, 0), Vector3(0, -0.27914482, 0), Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("RigidBody3D/MeshInstance3D:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.13333334, 0.39, 1),
+"transitions": PackedFloat32Array(-2, -2, -2, -2),
+"update": 0,
+"values": [Vector3(1, 1, 1), Vector3(1, 0.585, 1), Vector3(1, 0.585, 1), Vector3(1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_e6d4v"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("RigidBody3D/MeshInstance3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("RigidBody3D/MeshInstance3D:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_qp131"]
+_data = {
+&"Bounce": SubResource("Animation_2hac7"),
+&"RESET": SubResource("Animation_e6d4v")
+}
+
 [node name="Node3D" type="CharacterBody3D" unique_id=1831731075]
 script = ExtResource("1_tt7e2")
 
@@ -30,5 +90,8 @@ shape = SubResource("SphereShape3D_p3a75")
 
 [node name="Timer" type="Timer" parent="." unique_id=1820526268]
 wait_time = 2.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=637963307]
+libraries/ = SubResource("AnimationLibrary_qp131")
 
 [connection signal="timeout" from="Timer" to="RigidBody3D" method="_on_timer_timeout"]

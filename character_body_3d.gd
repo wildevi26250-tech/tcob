@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 @export var speed: float = 6.5
 @export var rotation_speed: float = 12.0
-@export var jump_velocity: float = 6.0
+@export var jump_velocity: float = 20.0
 
 @onready var rig: Node3D = $"tcob-player-retry/rig"
 @onready var anim_player: AnimationPlayer = $"tcob-player-retry/AnimationPlayer"
@@ -11,7 +11,7 @@ var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
-		velocity.y -= gravity * delta
+		velocity.y -= (gravity * delta) + 0.35
 	elif Input.is_action_just_pressed("Jump"):
 		velocity.y = jump_velocity
 

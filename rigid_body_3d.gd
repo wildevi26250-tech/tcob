@@ -10,10 +10,18 @@ func _ready() -> void:
 
 func _physics_process(delta: float) -> void:
 	linear_velocity.y -= 0.0918
+	
+func _process(delta: float) -> void:
+	if Global.on_floor == 1:
+		linear_velocity.x += randf_range(-50, 50)
+		linear_velocity.z += randf_range(-50, 50)
+		linear_velocity.y += randf_range(1, 50)
+	elif Global.on_wall == 1:
+		linear_velocity.x += randf_range(-50, 50)
+		linear_velocity.z += randf_range(-50, 50)
+		linear_velocity.y += randf_range(1, 50)
 
 func _on_timer_timeout() -> void:
-	linear_velocity.x += randf_range(-50, 50)
-	linear_velocity.z += randf_range(-50, 50)
-	linear_velocity.y += randf_range(1, 50)
+	pass
 
 	

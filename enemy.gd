@@ -17,9 +17,10 @@ func _process(delta: float) -> void:
 func _physics_process(delta: float) -> void:
 	if is_on_floor():
 		Global.on_floor = 1
+		print("AAA")
 	else:
 		Global.on_floor = 0
-	
+	move_and_slide()
 
 func _on_timer_timeout() -> void:
 	Global.jump = 1

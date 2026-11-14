@@ -14,7 +14,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1872158, 0)
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, -1.2340775, 0)
 
 [node name="Node3D" parent="." unique_id=1831731075 instance=ExtResource("3_r0du0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.87800217, 3.0295448)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 19.530453, 3.0295448)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1814773619]
 
