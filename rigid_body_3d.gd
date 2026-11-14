@@ -10,9 +10,13 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if Global.jump == 1 && Global.on_floor == 1:
-		linear_velocity.x += randi_range(1, 50)
-		linear_velocity.z += randi_range(1, 50)
-		linear_velocity.y += randi_range(50, 100)
+	
+	get_tree().create_timer(2)
 		
  
+
+
+func _on_timer_timeout() -> void:
+	linear_velocity.x += randi_range(1, 50)
+	linear_velocity.z += randi_range(1, 50)
+	linear_velocity.y += randi_range(50, 100)

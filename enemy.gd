@@ -12,9 +12,7 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	timer.start()
-	get_tree().create_timer(1.0)
-	
+	pass
 
 func _physics_process(delta: float) -> void:
 	if is_on_floor():
