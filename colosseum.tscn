@@ -66,11 +66,18 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_7udf2")
 
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_qo6vf"]
+
 [node name="colosseum" type="Node3D" unique_id=42025773]
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0)
 
 [node name="Cube" type="MeshInstance3D" parent="." unique_id=78876776]
-transform = Transform3D(1, 0, 0, 0, 1, 1.7484555e-07, 0, -1.7484555e-07, 1, -9.0100765, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 1.7484555e-07, 0, -1.7484555e-07, 1, -9.01, 1.071, 0)
 mesh = SubResource("ArrayMesh_nvhyl")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=845831942]
+[node name="StaticBody3D2" type="StaticBody3D" parent="." unique_id=823690052]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.09949589, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D2" unique_id=1081577159]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.9275615, 0)
+shape = SubResource("WorldBoundaryShape3D_qo6vf")
