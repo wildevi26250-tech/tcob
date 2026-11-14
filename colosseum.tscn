@@ -3,6 +3,9 @@
 [ext_resource type="PackedScene" uid="uid://nyj5fngtyki3" path="res://Torch.tscn" id="1_voh5k"]
 [ext_resource type="PackedScene" uid="uid://c3r7rjh278dg0" path="res://Bounce pad.tscn" id="2_jy3mr"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_ygn5p"]
+size = Vector3(1, 6.591675, 5.0552826)
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_veefc"]
 resource_name = "Material"
 cull_mode = 2
@@ -69,9 +72,6 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_7udf2")
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_ygn5p"]
-size = Vector3(1, 6.591675, 5.0552826)
-
 [sub_resource type="BoxShape3D" id="BoxShape3D_kykt3"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_kne1u"]
@@ -79,6 +79,10 @@ size = Vector3(19, 1, 30.999023)
 
 [node name="colosseum" type="Node3D" unique_id=42025773]
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, -43.606327, 0)
+
+[node name="CollisionShape3D10" type="CollisionShape3D" parent="." unique_id=1387047130]
+transform = Transform3D(-0.77899575, -0.3843351, 0.4954307, -0.4222818, 0.9056429, 0.038581796, -0.463512, -0.17915644, -0.8677904, -7.2190375, 2.7958374, -3.9612076)
+shape = SubResource("BoxShape3D_ygn5p")
 
 [node name="Cube" type="MeshInstance3D" parent="." unique_id=78876776]
 transform = Transform3D(1, 0, 0, 0, 1, 1.7484555e-07, 0, -1.7484555e-07, 1, -8.898005, 1.0871572, 0.03136778)
@@ -119,10 +123,6 @@ shape = SubResource("BoxShape3D_ygn5p")
 transform = Transform3D(-0.9322755, -0.361127, 0.021205677, -0.3611999, 0.9324881, 0.00041394812, -0.019923743, -0.0072735995, -0.9997752, -8.503254, 2.8953333, -0.29067564)
 shape = SubResource("BoxShape3D_ygn5p")
 
-[node name="CollisionShape3D10" type="CollisionShape3D" parent="StaticBody3D2" unique_id=1387047130]
-transform = Transform3D(-0.77899575, -0.3843351, 0.4954307, -0.4222818, 0.9056429, 0.038581796, -0.463512, -0.17915644, -0.8677904, -7.2190375, 2.8953333, -3.9612076)
-shape = SubResource("BoxShape3D_ygn5p")
-
 [node name="CollisionShape3D11" type="CollisionShape3D" parent="StaticBody3D2" unique_id=2126471993]
 transform = Transform3D(-0.5153398, -0.27487195, 0.81170803, -0.3075472, 0.94339126, 0.124207765, -0.79989946, -0.18562931, -0.5707037, -5.3371425, 2.8953333, -6.1016793)
 shape = SubResource("BoxShape3D_ygn5p")
@@ -151,17 +151,14 @@ shape = SubResource("BoxShape3D_kykt3")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.26501656, 0)
 shape = SubResource("BoxShape3D_kne1u")
 
-[node name="Torch" parent="." unique_id=740909030 instance=ExtResource("1_voh5k")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5514536, 0)
-
-[node name="Torch2" parent="." unique_id=1261531130 instance=ExtResource("1_voh5k")]
-transform = Transform3D(0.8660254, -0.5, 0, 0.5, 0.8660254, 0, 0, 0, 1, 8.165371, 4.4555073, 0)
-
-[node name="Torch3" parent="." unique_id=473854789 instance=ExtResource("1_voh5k")]
-transform = Transform3D(0.70710665, 0.7071067, 0, -0.7071067, 0.70710665, 0, 0, 0, 1, -8.357954, 4.640271, 0)
-
 [node name="Pad" parent="." unique_id=972956060 instance=ExtResource("2_jy3mr")]
 transform = Transform3D(-4.2269175e-08, 1.1328437e-08, 3.875, 0.30451512, 0.9525075, 8.064582e-09, -0.9525075, 0.30451512, -1.6938164e-07, 0.03360367, 2.2195787, 6.9502597)
 
 [node name="Pad" parent="Pad" unique_id=570189801 instance=ExtResource("2_jy3mr")]
 transform = Transform3D(-0.81464624, 0.5797769, 0.034433797, 0.57977694, 0.8135121, 0.10770801, 0.014498662, 0.04535068, -2.3723063, 13.121636, -4.3853397, -0.66346234)
+
+[node name="Torch" parent="." unique_id=2021742648 instance=ExtResource("1_voh5k")]
+
+[node name="Torch2" parent="." unique_id=1688122905 instance=ExtResource("1_voh5k")]
+
+[node name="Torch3" parent="." unique_id=1355576069 instance=ExtResource("1_voh5k")]
