@@ -71,6 +71,8 @@ shadow_mesh = SubResource("ArrayMesh_7udf2")
 [sub_resource type="BoxShape3D" id="BoxShape3D_ygn5p"]
 size = Vector3(1, 6.591675, 5.0552826)
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_kykt3"]
+
 [node name="colosseum" type="Node3D" unique_id=42025773]
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, -43.606327, 0)
 
@@ -140,3 +142,7 @@ shape = SubResource("BoxShape3D_ygn5p")
 [node name="CollisionShape3D14" type="CollisionShape3D" parent="." unique_id=1781596657]
 transform = Transform3D(0.81936836, 0.20376712, 0.5358307, -0.31311947, 0.94202876, 0.120571174, -0.4801994, -0.26657134, 0.83567286, 7.604271, 2.5551653, -3.8753593)
 shape = SubResource("BoxShape3D_ygn5p")
+
+[node name="CollisionShape3D15" type="CollisionShape3D" parent="." unique_id=1200553889]
+transform = Transform3D(27.215, 0, 0, 0, 1, 0, 0, 0, 27.215, 0, 6.180623, 0)
+shape = SubResource("BoxShape3D_kykt3")
