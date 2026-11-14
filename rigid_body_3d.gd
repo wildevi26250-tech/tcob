@@ -15,6 +15,5 @@ func _on_timer_timeout() -> void:
 	linear_velocity.x += randf_range(-50, 50)
 	linear_velocity.z += randf_range(-50, 50)
 	linear_velocity.y += randf_range(1, 50)
-	print('e')
 
 	
