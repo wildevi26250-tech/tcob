@@ -29,3 +29,11 @@
 2026-11-13T23:34:35.930890Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
 2026-11-13T23:34:35.931081Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
 2026-11-13T23:34:35.931299Z ERROR tracing_panic: 86: A panic occurred panic.payload="Upcast failed. This is a bug; please report it.: Gd { id: -9223372031771279127, class: Object, refc: 3 }" panic.location="C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\godot-core-0.5.5\\src\\obj\\gd.rs:431:14" panic.backtrace=disabled backtrace panic.note="run with RUST_BACKTRACE=1 environment variable to display a backtrace"
+2026-11-13T23:35:13.388604Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-13T23:35:13.388621Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-13T23:35:13.406346Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-11-13T23:35:13.406369Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-11-13T23:35:13.410195Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-13T23:35:13.410635Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-11-13T23:35:15.465051Z DEBUG backstitch_godot::interop::godot_project: 978: ** GodotProjectPlugin: enter_tree
+2026-11-13T23:35:16.659420Z  INFO backstitch_godot::interop::godot_project: 734: Backstitch config has no project id, not autostarting...

@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://crkaxhj0uwmqk"]
+
+[ext_resource type="Texture2D" path="textures_1K/Stylized_water_waves_Base_Color.jpg" id="1"]
+[ext_resource type="Texture2D" path="textures_1K/Stylized_water_waves_Roughness.jpg" id="2"]
+[ext_resource type="Texture2D" path="textures_1K/Stylized_water_waves_Height.jpg" id="3"]
+
+[resource]
+resource_name = "Stylized water waves pools"
+albedo_texture = ExtResource("1")
+roughness_texture = ExtResource("2")
+roughness_texture_channel = 4
+metallic_specular = 0.5
+heightmap_texture = ExtResource("3")
+heightmap_enabled = true
+uv1_scale = Vector3(2, 2, 2)
