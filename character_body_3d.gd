@@ -47,7 +47,7 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, speed)
 		velocity.z = move_toward(velocity.z, 0, speed)
 		
-		update_animation("metarig")
+		update_animation("idle")
 
 	if not is_on_floor():
 		update_animation("jump")
