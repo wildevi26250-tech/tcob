@@ -155,10 +155,13 @@ shape = SubResource("BoxShape3D_kne1u")
 transform = Transform3D(-4.2269175e-08, 1.1328437e-08, 3.875, 0.30451512, 0.9525075, 8.064582e-09, -0.9525075, 0.30451512, -1.6938164e-07, 0.03360367, 2.2195787, 6.9502597)
 
 [node name="Pad" parent="Pad" unique_id=570189801 instance=ExtResource("2_jy3mr")]
-transform = Transform3D(-0.81464624, 0.5797769, 0.034433797, 0.57977694, 0.8135121, 0.10770801, 0.014498662, 0.04535068, -2.3723063, 13.121636, -4.3853397, -0.66346234)
+transform = Transform3D(-0.81464624, 0.5797769, 0.016310746, 0.57977694, 0.8135121, 0.051019598, 0.014498662, 0.04535068, -1.123724, 13.121635, -4.385339, 0.013387958)
 
 [node name="Torch" parent="." unique_id=2021742648 instance=ExtResource("1_voh5k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5449848, 0)
 
 [node name="Torch2" parent="." unique_id=1688122905 instance=ExtResource("1_voh5k")]
+transform = Transform3D(0.9659258, -0.25881904, 0, 0.25881904, 0.9659258, 0, 0, 0, 1, 8.606371, 4.630822, 0)
 
 [node name="Torch3" parent="." unique_id=1355576069 instance=ExtResource("1_voh5k")]
+transform = Transform3D(0.9659258, 0.25881904, 0, -0.25881904, 0.9659258, 0, 0, 0, 1, -8.757337, 4.837607, 0)
