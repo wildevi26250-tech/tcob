@@ -1,21 +1,20 @@
 extends RigidBody3D
 
-@onready var timer = $Timer
+@onready var timer = $"../Timer"
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	timer.start()
+	#await get_tree().create_timer(2).timeout
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
-		
- 
-
+func _physics_process(delta: float) -> void:
+	linear_velocity.y -= 0.0918
 
 func _on_timer_timeout() -> void:
-	linear_velocity.x += randi_range(1, 50)
-	linear_velocity.z += randi_range(1, 50)
-	linear_velocity.y += randi_range(50, 100)
+	linear_velocity.x += randf_range(-50, 50)
+	linear_velocity.z += randf_range(-50, 50)
+	linear_velocity.y += randf_range(1, 50)
+	print('e')
+
+	

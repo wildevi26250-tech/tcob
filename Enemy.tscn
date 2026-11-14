@@ -26,7 +26,7 @@ mesh = SubResource("CapsuleMesh_ly3xq")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1880098749]
 shape = SubResource("SphereShape3D_p3a75")
 
-[node name="Timer" type="Timer" parent="RigidBody3D" unique_id=1940410743]
-autostart = true
+[node name="Timer" type="Timer" parent="." unique_id=1820526268]
+wait_time = 2.0
 
-[connection signal="timeout" from="RigidBody3D/Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="Timer" to="RigidBody3D" method="_on_timer_timeout"]
