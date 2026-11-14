@@ -17,9 +17,9 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-AmbientCG="*uid://cnxneyd8ilml2"
 Global="*uid://caevg4hql8mp"
 <<<<<<<HEADGlobal="*uid://dfd6imul62a8m"
+AmbientCG="*uid://cnxneyd8ilml2"
 
 [display]
 
@@ -28,7 +28,11 @@ window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/backstitch/plugin.cfg", "res://addons/backstitch_temp/plugin.cfg", "res://addons/blendkit/plugin.cfg")
+enabled=PackedStringArray("res://addons/blendkit/plugin.cfg")
+
+[filesystem]
+
+import/blender/enabled=false
 
 [input]
 
