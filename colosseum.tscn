@@ -71,7 +71,8 @@ size = Vector3(1, 6.591675, 5.0552826)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_kykt3"]
 
-[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_qo6vf"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_kne1u"]
+size = Vector3(19, 1, 30.999023)
 
 [node name="colosseum" type="Node3D" unique_id=42025773]
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, -43.606327, 0)
@@ -144,5 +145,5 @@ transform = Transform3D(27.215, 0, 0, 0, 1, 0, 0, 0, 27.215, 0, 6.280119, 0)
 shape = SubResource("BoxShape3D_kykt3")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D2" unique_id=1081577159]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.640193, 0)
-shape = SubResource("WorldBoundaryShape3D_qo6vf")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.26501656, 0)
+shape = SubResource("BoxShape3D_kne1u")

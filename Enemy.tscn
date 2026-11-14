@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://br5i1ifcd2tyg" path="res://rigid_body_3d.gd" id="2_s7bn3"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ly3xq"]
-bounce = 0.46
+bounce = 0.66
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_ly3xq"]
 radius = 0.9472656
