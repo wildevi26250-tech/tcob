@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bbn1ftxvlr5n7"]
+
+[resource]
+resource_name = "Anime 2d shader"
+albedo_color = Color(0.8, 0.8, 0.8, 1)

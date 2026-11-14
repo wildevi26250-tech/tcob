@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://blj2livqe73qg"]
+
+[resource]
+resource_name = "Pool Water 02"
+albedo_color = Color(0.124772, 0.428691, 0.584079, 1)

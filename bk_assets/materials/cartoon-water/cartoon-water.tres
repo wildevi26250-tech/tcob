@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cyswttge8oku0"]
+
+[resource]
+resource_name = "Cartoon Water"
+albedo_color = Color(0.016806, 0.686685, 1, 1)

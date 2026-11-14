@@ -1,0 +1,10 @@
+[asset]
+
+id="85e22ec1-d66c-4771-9c19-876bb4101434"
+assetBaseId="0724a65f-42df-4b4a-954c-9fa5320003c8"
+files={
+"anime-2d-shader.tres": "blend"
+}
+versions={
+"anime-2d-shader.tres": "85e22ec1-d66c-4771-9c19-876bb4101434"
+}
