@@ -4,8 +4,17 @@ extends CharacterBody3D
 @export var rotation_speed: float = 12.0
 @export var jump_velocity: float = 20.0
 
+<<<<<<< Updated upstream
 @onready var rig: Node3D = $"tcob-player-retry/rig"
 @onready var anim_player: AnimationPlayer = $"tcob-player-retry/AnimationPlayer"
+=======
+@export var dash_speed: float = 50.0
+@export var dash_duration: float = 0.2
+@export var dash_cooldown: float = 0.8
+
+@onready var rig: Node3D = $"tcob-player"
+@onready var anim_player: AnimationPlayer = $"tcob-player/AnimationPlayer"
+>>>>>>> Stashed changes
 
 var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 
