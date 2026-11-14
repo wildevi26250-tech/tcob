@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bqgejg3pf54sl" path="res://Player.tscn" id="1_uu6xs"]
 [ext_resource type="PackedScene" uid="uid://bf8622s805cqh" path="res://Level.tscn" id="2_r0du0"]
+[ext_resource type="PackedScene" uid="uid://c012ognpw31i4" path="res://colosseum.tscn" id="3_cm0pq"]
 [ext_resource type="PackedScene" uid="uid://c5soijj3s17n1" path="res://Enemy.tscn" id="3_r0du0"]
 
 [sub_resource type="Environment" id="Environment_p3a75"]
@@ -22,8 +23,6 @@ environment = SubResource("Environment_p3a75")
 [node name="CharacterBody3D" parent="." unique_id=1254943193 instance=ExtResource("1_uu6xs")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.0107012, -4.4935646)
 
-[node name="StaticBody3D" parent="." unique_id=1772989298 instance=ExtResource("2_r0du0")]
-
 [node name="Node3D" parent="." unique_id=697635447 instance=ExtResource("3_r0du0")]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=535740762]
@@ -32,3 +31,7 @@ shadow_enabled = true
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1148633664]
 transform = Transform3D(1, 0, 0, 0, 0.5282381, 0.8490963, 0, -0.8490963, 0.5282381, 0, 12.265902, 8.379003)
+
+[node name="colosseum" parent="." unique_id=42025773 instance=ExtResource("3_cm0pq")]
+
+[node name="StaticBody3D" parent="." unique_id=1772989298 instance=ExtResource("2_r0du0")]

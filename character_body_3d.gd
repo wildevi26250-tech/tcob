@@ -1,6 +1,7 @@
 extends CharacterBody3D
 
 @onready var play_anim = $"tcob-player/AnimationPlayer"
+@onready var rig = $"tcob-player/rig"
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 var dash_speed = 100
@@ -31,8 +32,7 @@ func _physics_process(delta: float) -> void:
 		velocity.x += dash_speed
 		
 	if Input.is_action_just_pressed("ui_up"):
-		transform.basis = Basis()
-		rotate_object_local(Vector3.UP, 1)
+		rig.rotate(Vector3.UP, 1)
 		
 	if Input.is_action_just_pressed("ui_down"):
 		transform.basis = Basis()
