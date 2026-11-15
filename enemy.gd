@@ -18,13 +18,13 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if enemy_num < 20:
+	pass
+	#if enemy_num <= 20:
+		#spawn()
+		#enemy_num = enemy_num + 1
 		
-		spawn()
-		enemy_num = enemy_num + 1
-		
-	#else:
-		#get_tree().change_scene_to_file("res://Menu.tscn")
+#	elif enemy_num <= 20:
+		#get_tree().change_scene_to_file("res://win.tscn")
 
 
 func _physics_process(delta: float) -> void:
@@ -54,10 +54,11 @@ func _on_area_3d_area_exited(area: Area3D) -> void:
 	Global.bounce = 0
 	
 func spawn():
-	await get_tree().create_timer(randf_range(5, 8)).timeout
-	var ball_instance = ball_scene.instantiate()
-	add_child(ball_instance)
-	print("kagdfkhfdskjhd")
+	if not enemy_num <= 20:
+		await get_tree().create_timer(randf_range(5, 8)).timeout
+		var ball_instance = ball_scene.instantiate()
+		add_child(ball_instance)
+		print("kagdfkhfdskjhd")
 	
 
 
