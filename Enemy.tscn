@@ -104,6 +104,7 @@ libraries/ = SubResource("AnimationLibrary_qp131")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1433430084]
 shape = SubResource("SphereShape3D_p3a75")
 
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
 [connection signal="timeout" from="Timer" to="RigidBody3D" method="_on_timer_timeout"]
 [connection signal="area_entered" from="Area3D" to="RigidBody3D" method="_on_area_3d_area_entered"]
 [connection signal="area_exited" from="Area3D" to="RigidBody3D" method="_on_area_3d_area_exited"]
