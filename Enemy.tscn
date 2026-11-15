@@ -82,6 +82,8 @@ script = ExtResource("1_tt7e2")
 collision_layer = 3
 collision_mask = 3
 physics_material_override = SubResource("PhysicsMaterial_ly3xq")
+can_sleep = false
+continuous_cd = true
 script = ExtResource("2_s7bn3")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D" unique_id=1928330693]
