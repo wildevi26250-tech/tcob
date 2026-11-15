@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bddbapls2ybbw"]
+
+[node name="win" type="Node2D" unique_id=167256598]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1207050056]
+offset_right = 1601.0
+offset_bottom = 890.0
+
+[node name="WIN" type="Button" parent="." unique_id=1259876838]
+offset_right = 1157.0
+offset_bottom = 647.0
+theme_override_font_sizes/font_size = 496
+text = "WIN"

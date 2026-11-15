@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cdka0bd376rh7"]
+
+[node name="lose" type="Node2D" unique_id=1434869458]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=597685642]
+offset_right = 1576.0
+offset_bottom = 815.0
+
+[node name="Lose" type="Button" parent="ColorRect" unique_id=2013165082]
+layout_mode = 0
+offset_right = 1157.0
+offset_bottom = 647.0
+theme_override_font_sizes/font_size = 496
+text = "Lose"

@@ -1,5 +1,4 @@
 extends Node3D
-@onready var timer = $RigidBody3D/Timer
 @onready var ball_scene = preload("res://Enemy.tscn")
 
 const SPEED = 20.0
