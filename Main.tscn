@@ -7,6 +7,9 @@
 
 [node name="Node" type="Node" unique_id=117012660]
 
+[node name="Node3D7" parent="." unique_id=2008772317 instance=ExtResource("3_r0du0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.518562, -24.089752, 16.100014)
+
 [node name="CharacterBody3D" parent="." unique_id=1254943193 instance=ExtResource("1_uu6xs")]
 transform = Transform3D(4.5184035, 0, 0, 0, 4.5184035, 0, 0, 0, 4.5184035, 0, 1.1872158, 0)
 
@@ -26,7 +29,7 @@ shadow_enabled = true
 transform = Transform3D(1, 0, 0, 0, 0.67236793, 0.7402171, 0, -0.7402171, 0.67236793, 0, 16.897675, 29.50572)
 script = ExtResource("3_fos0i")
 
-[node name="Node3D2" parent="." unique_id=2008772317 instance=ExtResource("3_r0du0")]
+[node name="Node3D2" parent="." unique_id=1123544820 instance=ExtResource("3_r0du0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.589191, 23.223652, 23.311226)
 
 [node name="Node3D3" parent="." unique_id=816945355 instance=ExtResource("3_r0du0")]
@@ -36,7 +39,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9422817, 23.223652, 20.806
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.79327, 23.223652, 18.291012)
 
 [node name="Node3D5" parent="." unique_id=1011921329 instance=ExtResource("3_r0du0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.51, 23.223652, -20.815575)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.51, 17.538002, -20.815575)
 
 [node name="Node3D6" parent="." unique_id=1170534826 instance=ExtResource("3_r0du0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.88232, 23.223652, -11.979145)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.425949, 15.086216, 17.103058)
+
+[node name="Node3D8" parent="." unique_id=402673800 instance=ExtResource("3_r0du0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.7614155, 2.0027332, -11.979145)
