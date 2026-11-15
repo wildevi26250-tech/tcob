@@ -1,7 +1,7 @@
 extends Node3D
 @onready var ball_scene = preload("res://Enemy.tscn")
 
-const SPEED = 20.0
+const SPEED = 12.0
 const JUMP_VELOCITY = 4.5
 const rotation_speed = 2.1
 var velocity2 = Vector3()

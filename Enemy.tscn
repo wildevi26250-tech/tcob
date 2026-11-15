@@ -91,6 +91,7 @@ material_override = ExtResource("3_2hac7")
 mesh = SubResource("CapsuleMesh_ly3xq")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1880098749]
+transform = Transform3D(0.91, 0, 0, 0, 0.91, 0, 0, 0, 0.91, 0, 0, 0)
 shape = SubResource("SphereShape3D_p3a75")
 
 [node name="Timer" type="Timer" parent="." unique_id=1820526268]
@@ -100,6 +101,8 @@ wait_time = 2.0
 libraries/ = SubResource("AnimationLibrary_qp131")
 
 [node name="Area3D" type="Area3D" parent="." unique_id=1925471517]
+collision_layer = 3
+collision_mask = 3
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1433430084]
 shape = SubResource("SphereShape3D_p3a75")

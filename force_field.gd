@@ -4,6 +4,9 @@ var start_cooldown = 0
 
 @onready var force_play = $AnimationPlayer
 
+func _ready() -> void:
+	force_play.play("RESET")
+
 func _process(delta: float) -> void:
 	cooldown = cooldown + 1
 	if start_cooldown == 1:
