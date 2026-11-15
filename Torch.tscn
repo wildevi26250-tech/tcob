@@ -17,7 +17,7 @@ size = Vector3(0.17773438, 0.29229736, 0.30493164)
 
 [sub_resource type="Curve" id="Curve_4hnl4"]
 _limits = [0.0, 3.0, 0.0, 1.0]
-_data = [Vector2(0.045248866, 1.0982144), 0.0, 0.0, 0, 0, Vector2(0.99999, 0), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+_data = [Vector2(0, 1.4196429), 0.0, 0.0, 0, 0, Vector2(0.99999, 0.42857146), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
 point_count = 3
 
 [sub_resource type="CurveTexture" id="CurveTexture_euhpe"]
@@ -79,5 +79,7 @@ omni_range = 1.08
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="." unique_id=78902603]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48801482, 0)
+amount = 24
+lifetime = 1.84
 process_material = SubResource("ParticleProcessMaterial_ly3xq")
 draw_pass_1 = SubResource("CapsuleMesh_jy3mr")
