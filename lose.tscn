@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cdka0bd376rh7"]
+
+[ext_resource type="Script" uid="uid://vkx4412qvoj2" path="res://lose.gd" id="1_rtc1j"]
+
+[node name="lose" type="Node2D" unique_id=1434869458]
+script = ExtResource("1_rtc1j")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=597685642]
+offset_right = 1576.0
+offset_bottom = 815.0
+
+[node name="Lose" type="Button" parent="ColorRect" unique_id=2013165082]
+layout_mode = 0
+offset_right = 1157.0
+offset_bottom = 647.0
+theme_override_font_sizes/font_size = 496
+text = "Lose"
+
+[connection signal="button_down" from="ColorRect/Lose" to="." method="_on_lose_button_down"]
