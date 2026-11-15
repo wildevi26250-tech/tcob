@@ -86,6 +86,5 @@ func update_animations(direction: Vector3) -> void:
 
 func _on_area_3d_body_entered(body: Node3D) -> void:
 	if body.is_in_group("enemy"):
-		var menu_instance = menu_scene.instantiate()
-		add_child(menu_instance)
+		get_tree().change_scene_to_file("res://lose.tscn")
 		

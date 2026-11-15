@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://bddbapls2ybbw"]
 
+[ext_resource type="Script" uid="uid://cu21gc1m24664" path="res://win.gd" id="1_wao2c"]
+
 [node name="win" type="Node2D" unique_id=167256598]
+script = ExtResource("1_wao2c")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1207050056]
 offset_right = 1601.0
@@ -11,3 +14,5 @@ offset_right = 1157.0
 offset_bottom = 647.0
 theme_override_font_sizes/font_size = 496
 text = "WIN"
+
+[connection signal="button_down" from="WIN" to="." method="_on_win_button_down"]
