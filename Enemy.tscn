@@ -5,7 +5,7 @@
 [ext_resource type="Material" uid="uid://ck7vndco4hp4u" path="res://bk_assets/materials/black-rubber/black-rubber_2K.tres" id="3_2hac7"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ly3xq"]
-bounce = 0.92
+bounce = 1.0
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_ly3xq"]
 radius = 0.9472656
@@ -79,6 +79,8 @@ _data = {
 script = ExtResource("1_tt7e2")
 
 [node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=49039100]
+collision_layer = 3
+collision_mask = 3
 physics_material_override = SubResource("PhysicsMaterial_ly3xq")
 script = ExtResource("2_s7bn3")
 

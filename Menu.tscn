@@ -1,22 +1,47 @@
 [gd_scene format=3 uid="uid://cmqv80p88goou"]
 
+[ext_resource type="Script" uid="uid://da72nekoitf73" path="res://menu.gd" id="1_5yleq"]
+[ext_resource type="Texture2D" uid="uid://br4v7cw17c4kj" path="res://bk_assets/materials/black-rubber/textures_2K/Rectangle.png" id="1_uubjt"]
+
+[sub_resource type="Theme" id="Theme_cx167"]
+default_font_size = 428
+
 [node name="Control" type="Control" unique_id=1859258507]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 170.0
+offset_top = 185.0
+offset_right = 170.0
+offset_bottom = 185.0
 grow_horizontal = 2
 grow_vertical = 2
+scale = Vector2(0.32, 0.32)
+script = ExtResource("1_5yleq")
 
 [node name="MenuBar" type="MenuBar" parent="." unique_id=1395025976]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = 1243.6626
+offset_top = 496.28745
+offset_right = 1283.6626
+offset_bottom = 536.2875
+scale = Vector2(1.025, 1.025)
 
 [node name="Button" type="Button" parent="MenuBar" unique_id=831820882]
+z_index = 5
 layout_mode = 0
-offset_left = 1.0
-offset_top = 2.0
-offset_right = 47.0
-offset_bottom = 33.0
+offset_left = 567.15845
+offset_top = 121.21948
+offset_right = 1762.8752
+offset_bottom = 764.96747
+scale = Vector2(1.025, 1.025)
+theme = SubResource("Theme_cx167")
 text = "Start"
+
+[node name="Rectangle" type="Sprite2D" parent="." unique_id=539560285]
+position = Vector2(1294.1063, 712.1688)
+scale = Vector2(1.0512716, 1.0557262)
+texture = ExtResource("1_uubjt")
+
+[connection signal="pressed" from="MenuBar/Button" to="." method="_on_button_pressed"]

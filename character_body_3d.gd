@@ -78,3 +78,8 @@ func update_animations(direction: Vector3) -> void:
 	var anim := "Move01" if direction else "Idle01"
 	if anim_player.has_animation(anim) and anim_player.current_animation != anim:
 		anim_player.play(anim)
+
+
+func _on_area_3d_area_entered(area: Area3D) -> void:
+	#if body.name == "Enemy":
+		pass

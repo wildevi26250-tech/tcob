@@ -8,7 +8,7 @@ func _process(delta: float) -> void:
 	cooldown = cooldown + 1
 	if start_cooldown == 1:
 		print(cooldown)
-	if cooldown > 1600 or start_cooldown == 0:
+	if cooldown > 1100 or start_cooldown == 0:
 		if Input.is_action_just_pressed("Shield"):
 			force_play.play("Force field")
 			cooldown = 0
