@@ -1,4 +1,5 @@
 extends CharacterBody3D
+@onready var menu_scene = preload("res://Menu.tscn")
 
 @export var speed: float = 6.5
 @export var rotation_speed: float = 12.0
@@ -80,6 +81,11 @@ func update_animations(direction: Vector3) -> void:
 		anim_player.play(anim)
 
 
-func _on_area_3d_area_entered(area: Area3D) -> void:
-	#if body.name == "Enemy":
-		pass
+
+
+
+func _on_area_3d_body_entered(body: Node3D) -> void:
+	if body.is_in_group("enemy"):
+		var menu_instance = menu_scene.instantiate()
+		add_child(menu_instance)
+		

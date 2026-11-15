@@ -23,5 +23,5 @@ transform = Transform3D(-0.08320445, -0.9961343, 0.02816933, 0.24008232, 0.00739
 shadow_enabled = true
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1414954496]
-transform = Transform3D(1, 0, 0, 0, 0.8367064, 0.5476517, 0, -0.5476517, 0.8367064, 0, 18.726128, 26.638632)
+transform = Transform3D(1, 0, 0, 0, 0.67236793, 0.7402171, 0, -0.7402171, 0.67236793, 0, 16.897675, 29.50572)
 script = ExtResource("3_fos0i")

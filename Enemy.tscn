@@ -12,7 +12,7 @@ radius = 0.9472656
 height = 1.8945313
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_p3a75"]
-radius = 0.9551661
+radius = 1.0409578
 
 [sub_resource type="Animation" id="Animation_2hac7"]
 resource_name = "Bounce"
@@ -75,10 +75,10 @@ _data = {
 &"RESET": SubResource("Animation_e6d4v")
 }
 
-[node name="Node3D" type="Node3D" unique_id=2008772317]
+[node name="Node3D" type="Node3D" unique_id=2008772317 groups=["enemy"]]
 script = ExtResource("1_tt7e2")
 
-[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=49039100]
+[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=49039100 groups=["enemy"]]
 collision_layer = 3
 collision_mask = 3
 physics_material_override = SubResource("PhysicsMaterial_ly3xq")
