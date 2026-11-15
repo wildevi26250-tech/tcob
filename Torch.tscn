@@ -74,8 +74,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.71981263, 0)
 light_color = Color(1, 0.5921569, 0, 1)
 light_energy = 16.0
 light_indirect_energy = 0.0
-light_size = 1.0
-omni_range = 1.08
+light_size = 24.345
+omni_range = 1.765
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="." unique_id=78902603]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48801482, 0)
