@@ -5,7 +5,7 @@
 [ext_resource type="Material" uid="uid://ck7vndco4hp4u" path="res://bk_assets/materials/black-rubber/black-rubber_2K.tres" id="3_2hac7"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ly3xq"]
-bounce = 0.66
+bounce = 0.92
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_ly3xq"]
 radius = 0.9472656
@@ -75,9 +75,7 @@ _data = {
 &"RESET": SubResource("Animation_e6d4v")
 }
 
-[node name="Node3D" type="CharacterBody3D" unique_id=1831731075]
-collision_layer = 3
-collision_mask = 3
+[node name="Node3D" type="Node3D" unique_id=2008772317]
 script = ExtResource("1_tt7e2")
 
 [node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=49039100]
@@ -103,7 +101,5 @@ libraries/ = SubResource("AnimationLibrary_qp131")
 shape = SubResource("SphereShape3D_p3a75")
 
 [connection signal="timeout" from="Timer" to="RigidBody3D" method="_on_timer_timeout"]
-[connection signal="area_entered" from="Area3D" to="." method="_on_area_3d_area_entered"]
 [connection signal="area_entered" from="Area3D" to="RigidBody3D" method="_on_area_3d_area_entered"]
-[connection signal="area_exited" from="Area3D" to="." method="_on_area_3d_area_exited"]
 [connection signal="area_exited" from="Area3D" to="RigidBody3D" method="_on_area_3d_area_exited"]

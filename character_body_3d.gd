@@ -10,10 +10,14 @@ extends CharacterBody3D
 @onready var rig: Node3D = $"tcob-player"
 @onready var anim_player: AnimationPlayer = $"tcob-player/AnimationPlayer"
 
+
 var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 var is_dashing: bool = false
 var can_dash: bool = true
 var dash_dir: Vector3 = Vector3.ZERO
+
+func _ready() -> void:
+	Global.player = self
 
 
 func _physics_process(delta: float) -> void:

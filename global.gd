@@ -1,5 +1,7 @@
 extends Node3D
 
+var player : CharacterBody3D
+
 var on_floor = 0
 var jump = 0
 var on_wall = 0

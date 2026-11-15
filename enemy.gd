@@ -1,8 +1,13 @@
-extends CharacterBody3D
+extends Node3D
 @onready var timer = $RigidBody3D/Timer
 
-const SPEED = 5.0
+const SPEED = 20.0
 const JUMP_VELOCITY = 4.5
+const rotation_speed = 2.1
+var velocity2 = Vector3()
+var rot = Vector3()
+
+
 
 
 # Called when the node enters the scene tree for the first time.
@@ -14,23 +19,18 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
+
 func _physics_process(delta: float) -> void:
-	if is_on_floor():
-		Global.on_floor = 1
-		print("AAA")
-	else:
-		Global.on_floor = 0
-	move_and_slide()
-
-func _on_timer_timeout() -> void:
-	Global.jump = 1
+	if Global.player == null:
+		return
 	
+	var direction = Global.player.global_transform.origin - global_transform.origin
+	direction = direction.normalized()
 	
-
-
-func _on_area_3d_area_entered(area: Area3D) -> void:
-	Global.bounce = 1
-
-
-func _on_area_3d_area_exited(area: Area3D) -> void:
-	Global.bounce = 0
+	var rotate_amount = direction.cross(global_transform.basis.z)
+	rot.y = rotate_amount.y * rotation_speed * delta
+	rot.x = rotate_amount.x * rotation_speed * delta
+	rotate(Vector3.UP, rot.y)
+	rotate(Vector3.RIGHT, rot.x)
+	
+	global_translate(-global_transform.basis.z * SPEED * delta)

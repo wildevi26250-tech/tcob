@@ -2377,7 +2377,3 @@ skeleton = NodePath("..")
 libraries/ = SubResource("AnimationLibrary_e80uo")
 
 [node name="Area3D" type="Area3D" parent="." unique_id=1332880019]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=547133232]
-transform = Transform3D(0.825, 0, 0, 0, 0.825, 0, 0, 0, 0.825, 0, 0.33525664, 0)
-shape = SubResource("CapsuleShape3D_p3a75")
